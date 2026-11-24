@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="231678d0-5c61-50f6-9328-b517f5c6bd73" extendedConfigurationObject="7eb1257b-df29-477a-89b8-534b30c9915d">
+  <producedTypes>
+    <objectType typeId="1443f1b3-bff4-5d17-8fb7-ac3e24c0bc03" valueTypeId="5fe9d8bf-f91b-5567-9908-13a4214dfc20"/>
+    <refType typeId="a5f976ae-c32c-519f-85ee-e28335c238b5" valueTypeId="fc4e4fd2-f217-5f24-b571-f22af2cd0459"/>
+    <selectionType typeId="26dd2862-1067-57d2-85fa-d2ca803a2765" valueTypeId="82f98515-70fd-50bd-a668-3d26bc7a02c6"/>
+    <listType typeId="fe7783d2-c2fd-5269-891a-e022562643e0" valueTypeId="f149bacf-e08b-55dd-b381-11593ae860d5"/>
+    <managerType typeId="6132c47b-9ee3-524e-973b-500d2baf7bce" valueTypeId="28f04a47-2c85-5125-9055-ae454cd3c143"/>
+  </producedTypes>
+  <name>ЗаказНаряд</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="617fa6d7-2b9f-5c29-ba98-7023d2d6190b">
+    <name>ГОА_Стадия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стадия ГОА</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГОА_СтадииЗаказНаряда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6928ef7-bfbd-576d-820e-48abf4cd546e">
+    <name>ГОА_ДатаФактическогоЗаезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактический заезд</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="489e8e5d-9d5e-58fe-96b5-bb47a6d257d2">
+    <name>ГОА_ДатаФактическогоВыезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактический выезд (дата ПСА)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90a9b980-794d-5008-8817-ffd530cdfce9">
+    <name>ГОА_Местонахождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местонахождение автотехники</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГОА_МестонахождениеАвтотехники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b101847-1518-5d99-a6d7-4ef4d3bb4484">
+    <name>ГОА_ДатаВыездаПослеДефектовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд после дефектовки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9a0159e-d254-57fd-8b00-217b36e12133">
+    <name>ГОА_ДатаНачалаРемонтаПослеПолученияЗапчастей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало ремонта после получения запчастей</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

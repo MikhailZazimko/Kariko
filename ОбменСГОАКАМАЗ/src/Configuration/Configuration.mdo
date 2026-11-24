@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4aae4d2a-60c7-4c9b-b689-e9ec9daa85d3">
+  <name>ОбменСГОАКАМАЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен СГОАКАМАЗ</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6e63875a-7ab1-49b5-ae69-5719f2b1b023"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="bdc4debe-403d-4ad5-86d4-16a1f1dd96eb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b236e0bd-dd97-41f9-936c-25733e838d15"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9dd1b79b-865f-473c-8a33-4c7df73728b6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="81a328f2-28e5-4979-9bcd-f0a05b1673e4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8f8804ed-9b19-43c1-bc77-893d29e657c9"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2e9f9619-d6ab-405f-8c10-97f0ae3caf95"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ГОА_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.5.1</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ГОА_ОсновнаяРоль</defaultRoles>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <roles>Role.ГОА_ОсновнаяРоль</roles>
+  <documents>Document.ЗаказНаряд</documents>
+  <enums>Enum.ГОА_СтадииЗаказНаряда</enums>
+  <enums>Enum.ГОА_МестонахождениеАвтотехники</enums>
+  <commonModules>CommonModule.СобытияОбъектовФормы</commonModules>
+  <commonModules>CommonModule.ГОА_ДанныеЗаказНаряда</commonModules>
+</mdclass:Configuration>

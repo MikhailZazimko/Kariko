@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="209c7833-f532-5f85-9d31-b3e81b8e4895">
+  <producedTypes>
+    <refType typeId="b357837f-e192-5857-a233-4d6fb5a97411" valueTypeId="b5c0061a-1e8b-5191-9b33-9056ec178323"/>
+    <listType typeId="87f8ed99-7101-506a-bbc3-73d3e0d0eb6e" valueTypeId="b8e67360-ece1-5b17-9b49-bf39290efcba"/>
+    <managerType typeId="b3776c71-4d86-527e-a49f-a8106424815c" valueTypeId="1cafdee3-a556-5fe6-a81a-a86ff51c80e2"/>
+  </producedTypes>
+  <name>ГОА_СтадииЗаказНаряда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии заказ-наряда ГОА</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59dc523b-a5c9-5e14-8897-c9ce3d665be5">
+    <name>ПереданаЗаказчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автотехника передана заказчику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b61f501-509e-501d-b81d-69a77058ca5a">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5f4d5d7-e3ad-53d6-94e2-188ff6f3f3d0">
+    <name>РаботыЗавершены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работы завершены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="216ccbc9-d3a1-5a38-b841-5659e3b29d39">
+    <name>ОжиданиеЗапчастейУПотребителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание запчастей (АТ у потребителя)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2b2fbc8-0379-5e05-a5d0-9e39a963d56c">
+    <name>ОжиданиеЗапчастейНаТерритории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание запчастей (АТ на территории)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a891235a-08df-545d-b14d-23f4e5073e7a">
+    <name>ОжиданиеСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание согласования с ЛПР/АЗК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c31fde9c-ffa8-53c8-b86b-5223a0f53833">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d63d3cf-e4df-52fc-b224-cb3454241095">
+    <name>Диагностика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диагностика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="213cd8f3-8196-55b0-8911-bcc3b0b06e2d">
+    <name>ОжиданиеЗаездаВРемзону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание заезда в ремзону</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

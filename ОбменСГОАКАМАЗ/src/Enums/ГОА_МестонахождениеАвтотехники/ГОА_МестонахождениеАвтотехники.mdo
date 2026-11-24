@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa753880-b2f9-50a7-88cd-c3e29c7bfea1">
+  <producedTypes>
+    <refType typeId="ee86f674-63e2-5846-b452-4ad8ad4b03b5" valueTypeId="747f0551-d40a-5ffa-8fdf-11f2d92684a2"/>
+    <listType typeId="2b610c5a-aef7-56e7-9b78-02b23cef8c9d" valueTypeId="259416b1-731c-5cc5-903e-56cecfab5338"/>
+    <managerType typeId="92a0fcd3-0fe0-5557-b64d-7078ef77770c" valueTypeId="c9556f5b-2e6f-59b6-9fa0-4f8d0247f098"/>
+  </producedTypes>
+  <name>ГОА_МестонахождениеАвтотехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождение автотехники</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce0954a2-bb98-53be-99db-e978bda5e7ea">
+    <name>ВСервисномЦентре</name>
+    <synonym>
+      <key>ru</key>
+      <value>В сервисном центре</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57533e2c-f5e8-5646-bfa9-f5e38a314dd7">
+    <name>УПотребителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>У потребителя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
