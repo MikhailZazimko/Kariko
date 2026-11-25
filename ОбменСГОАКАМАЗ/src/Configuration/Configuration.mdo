@@ -44,12 +44,12 @@
   </languages>
   <roles>Role.ГОА_ОсновнаяРоль</roles>
   <documents>Document.ЗаказНаряд</documents>
-  <enums>Enum.ГОА_СтадииЗаказНаряда</enums>
   <enums>Enum.ГОА_МестонахождениеАвтотехники</enums>
-  <commonModules>CommonModule.СобытияОбъектовФормы</commonModules>
+  <enums>Enum.ГОА_СтадииЗаказНаряда</enums>
   <commonModules>CommonModule.ГОА_ВыгрузкаЗаказНарядаВызовСервера</commonModules>
   <commonModules>CommonModule.ГОА_ДанныеЗаказНаряда</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыКлиент</commonModules>
+  <commonModules>CommonModule.СобытияОбъектовФормы</commonModules>
   <commonModules>CommonModule.УправлениеДиалогомДокументаСервер</commonModules>
   <eventSubscriptions>EventSubscription.ГОА_МестонахождениеПередЗаписьюЗаказНаряда</eventSubscriptions>
 </mdclass:Configuration>
