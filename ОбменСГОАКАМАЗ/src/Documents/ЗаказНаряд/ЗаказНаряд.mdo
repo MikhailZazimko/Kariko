@@ -107,12 +107,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="172a111f-d53f-4bc9-bd87-d03466dfe37b" extendedConfigurationObject="83bfe3df-bec7-462a-a622-55cd8ffe4a37">
-    <name>ФормаДокумента</name>
-    <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:BasicFormExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <form>Extended</form>
-    </extension>
-  </forms>
 </mdclass:Document>
