@@ -8,4 +8,5 @@
   </extension>
   <server>true</server>
   <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

@@ -11,6 +11,7 @@
     <usePurposes>Checked</usePurposes>
     <commandInterface>Extended</commandInterface>
     <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
     <defaultRoles>Extended</defaultRoles>
@@ -24,13 +25,23 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2e9f9619-d6ab-405f-8c10-97f0ae3caf95"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>ГОА_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.5.1</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ГОА_ОсновнаяРоль</defaultRoles>
-  <compatibilityMode>8.5.1</compatibilityMode>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="ceac8af4-cbc4-48bd-a0a6-0fa39f8cc2b5" extendedConfigurationObject="8031caaf-2be8-4106-a8f4-0c7752faefc0">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
   <roles>Role.ГОА_ОсновнаяРоль</roles>
   <documents>Document.ЗаказНаряд</documents>
   <enums>Enum.ГОА_СтадииЗаказНаряда</enums>
