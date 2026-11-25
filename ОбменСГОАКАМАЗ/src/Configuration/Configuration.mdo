@@ -47,6 +47,7 @@
   <enums>Enum.ГОА_СтадииЗаказНаряда</enums>
   <enums>Enum.ГОА_МестонахождениеАвтотехники</enums>
   <commonModules>CommonModule.СобытияОбъектовФормы</commonModules>
+  <commonModules>CommonModule.ГОА_ВыгрузкаЗаказНарядаВызовСервера</commonModules>
   <commonModules>CommonModule.ГОА_ДанныеЗаказНаряда</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыКлиент</commonModules>
   <commonModules>CommonModule.УправлениеДиалогомДокументаСервер</commonModules>
