@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97457b0d-cf3f-404f-86b0-8aee29534135">
+  <name>ГОА_МестонахождениеПередЗаписьюЗаказНаряда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение местонахождения автотехники</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказНаряд</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ГОА_ДанныеЗаказНаряда.ПередЗаписьюЗаказНаряда</handler>
+</mdclass:EventSubscription>
